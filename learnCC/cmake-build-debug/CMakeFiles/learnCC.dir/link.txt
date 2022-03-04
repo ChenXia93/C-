@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\learnCC.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\learnCC.dir/objects.a @CMakeFiles\learnCC.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\learnCC.dir/objects.a -Wl,--no-whole-archive -o learnCC.exe -Wl,--out-implib,liblearnCC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\learnCC.dir\linklibs.rsp
