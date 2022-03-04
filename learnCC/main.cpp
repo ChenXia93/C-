@@ -18,5 +18,6 @@ int main(){
         cout<<line<<":"<<" "<<pop<<endl;
     }
     input.close();
+    cout<<"hi"<<endl;
     return 0;
 }

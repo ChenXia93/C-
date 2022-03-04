@@ -1,3 +1,3 @@
-C:/Users/chen/OneDrive/learnCC/cmake-build-debug/CMakeFiles/learnCC.dir
-C:/Users/chen/OneDrive/learnCC/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/chen/OneDrive/learnCC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/chen/Desktop/Github_C++/learnCC/cmake-build-debug/CMakeFiles/learnCC.dir
+C:/Users/chen/Desktop/Github_C++/learnCC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chen/Desktop/Github_C++/learnCC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
