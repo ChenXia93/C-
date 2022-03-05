@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/learnCC.dir/all
+all: CMakeFiles/circular.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/learnCC.dir/clean
+clean: CMakeFiles/circular.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,7 +82,7 @@ clean: CMakeFiles/learnCC.dir/clean
 CMakeFiles/learnCC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target learnCC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target learnCC"
 .PHONY : CMakeFiles/learnCC.dir/all
 
 # Build rule for subdir invocation for target.
@@ -98,6 +100,32 @@ learnCC: CMakeFiles/learnCC.dir/rule
 CMakeFiles/learnCC.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/clean
 .PHONY : CMakeFiles/learnCC.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/circular.dir
+
+# All Build rule for target.
+CMakeFiles/circular.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target circular"
+.PHONY : CMakeFiles/circular.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/circular.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/circular.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/circular.dir/rule
+
+# Convenience name for target.
+circular: CMakeFiles/circular.dir/rule
+.PHONY : circular
+
+# clean rule for target.
+CMakeFiles/circular.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/clean
+.PHONY : CMakeFiles/circular.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

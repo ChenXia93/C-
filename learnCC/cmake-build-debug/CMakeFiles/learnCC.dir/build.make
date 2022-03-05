@@ -68,28 +68,28 @@ include CMakeFiles/learnCC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learnCC.dir/flags.make
 
-CMakeFiles/learnCC.dir/main.cpp.obj: CMakeFiles/learnCC.dir/flags.make
-CMakeFiles/learnCC.dir/main.cpp.obj: ../main.cpp
-CMakeFiles/learnCC.dir/main.cpp.obj: CMakeFiles/learnCC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCC.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnCC.dir/main.cpp.obj -MF CMakeFiles\learnCC.dir\main.cpp.obj.d -o CMakeFiles\learnCC.dir\main.cpp.obj -c C:\Users\chen\Desktop\Github_C++\learnCC\main.cpp
+CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj: CMakeFiles/learnCC.dir/flags.make
+CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj: ../DS_11_LinkedList/mainLinkedList.cpp
+CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj: CMakeFiles/learnCC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chen\Desktop\Github_C++\learnCC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj -MF CMakeFiles\learnCC.dir\DS_11_LinkedList\mainLinkedList.cpp.obj.d -o CMakeFiles\learnCC.dir\DS_11_LinkedList\mainLinkedList.cpp.obj -c C:\Users\chen\Desktop\Github_C++\learnCC\DS_11_LinkedList\mainLinkedList.cpp
 
-CMakeFiles/learnCC.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCC.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chen\Desktop\Github_C++\learnCC\main.cpp > CMakeFiles\learnCC.dir\main.cpp.i
+CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chen\Desktop\Github_C++\learnCC\DS_11_LinkedList\mainLinkedList.cpp > CMakeFiles\learnCC.dir\DS_11_LinkedList\mainLinkedList.cpp.i
 
-CMakeFiles/learnCC.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCC.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chen\Desktop\Github_C++\learnCC\main.cpp -o CMakeFiles\learnCC.dir\main.cpp.s
+CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chen\Desktop\Github_C++\learnCC\DS_11_LinkedList\mainLinkedList.cpp -o CMakeFiles\learnCC.dir\DS_11_LinkedList\mainLinkedList.cpp.s
 
 # Object files for target learnCC
 learnCC_OBJECTS = \
-"CMakeFiles/learnCC.dir/main.cpp.obj"
+"CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj"
 
 # External object files for target learnCC
 learnCC_EXTERNAL_OBJECTS =
 
-learnCC.exe: CMakeFiles/learnCC.dir/main.cpp.obj
+learnCC.exe: CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj
 learnCC.exe: CMakeFiles/learnCC.dir/build.make
 learnCC.exe: CMakeFiles/learnCC.dir/linklibs.rsp
 learnCC.exe: CMakeFiles/learnCC.dir/objects1.rsp

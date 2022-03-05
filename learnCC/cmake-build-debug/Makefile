@@ -128,29 +128,66 @@ learnCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/build
 .PHONY : learnCC/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+#=============================================================================
+# Target rules for targets named circular
+
+# Build rule for target.
+circular: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 circular
+.PHONY : circular
+
+# fast build rule for target.
+circular/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/build
+.PHONY : circular/fast
+
+DS_11_LinkedList/mainCircularLinkedList.obj: DS_11_LinkedList/mainCircularLinkedList.cpp.obj
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+DS_11_LinkedList/mainCircularLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+DS_11_LinkedList/mainCircularLinkedList.i: DS_11_LinkedList/mainCircularLinkedList.cpp.i
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/main.cpp.i
-.PHONY : main.cpp.i
+DS_11_LinkedList/mainCircularLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.i
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+DS_11_LinkedList/mainCircularLinkedList.s: DS_11_LinkedList/mainCircularLinkedList.cpp.s
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/main.cpp.s
-.PHONY : main.cpp.s
+DS_11_LinkedList/mainCircularLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\circular.dir\build.make CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.s
+.PHONY : DS_11_LinkedList/mainCircularLinkedList.cpp.s
+
+DS_11_LinkedList/mainLinkedList.obj: DS_11_LinkedList/mainLinkedList.cpp.obj
+.PHONY : DS_11_LinkedList/mainLinkedList.obj
+
+# target to build an object file
+DS_11_LinkedList/mainLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj
+.PHONY : DS_11_LinkedList/mainLinkedList.cpp.obj
+
+DS_11_LinkedList/mainLinkedList.i: DS_11_LinkedList/mainLinkedList.cpp.i
+.PHONY : DS_11_LinkedList/mainLinkedList.i
+
+# target to preprocess a source file
+DS_11_LinkedList/mainLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.i
+.PHONY : DS_11_LinkedList/mainLinkedList.cpp.i
+
+DS_11_LinkedList/mainLinkedList.s: DS_11_LinkedList/mainLinkedList.cpp.s
+.PHONY : DS_11_LinkedList/mainLinkedList.s
+
+# target to generate assembly for a file
+DS_11_LinkedList/mainLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\learnCC.dir\build.make CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.s
+.PHONY : DS_11_LinkedList/mainLinkedList.cpp.s
 
 # Help Target
 help:
@@ -160,10 +197,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... circular
 	@echo ... learnCC
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... DS_11_LinkedList/mainCircularLinkedList.obj
+	@echo ... DS_11_LinkedList/mainCircularLinkedList.i
+	@echo ... DS_11_LinkedList/mainCircularLinkedList.s
+	@echo ... DS_11_LinkedList/mainLinkedList.obj
+	@echo ... DS_11_LinkedList/mainLinkedList.i
+	@echo ... DS_11_LinkedList/mainLinkedList.s
 .PHONY : help
 
 

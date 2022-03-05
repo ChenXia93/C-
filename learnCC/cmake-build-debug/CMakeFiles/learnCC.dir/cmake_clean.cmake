@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learnCC.dir/main.cpp.obj"
-  "CMakeFiles/learnCC.dir/main.cpp.obj.d"
+  "CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj"
+  "CMakeFiles/learnCC.dir/DS_11_LinkedList/mainLinkedList.cpp.obj.d"
   "learnCC.exe"
   "learnCC.exe.manifest"
   "learnCC.pdb"

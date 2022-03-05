@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\circluar.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\circluar.dir/objects.a @CMakeFiles\circluar.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\circluar.dir/objects.a -Wl,--no-whole-archive -o circluar.exe -Wl,--out-implib,libcircluar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\circluar.dir\linklibs.rsp
