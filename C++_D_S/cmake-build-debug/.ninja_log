@@ -1,13 +1,19 @@
 # ninja log v5
 1	254	6672935085821994	CMakeFiles/C___D_S.dir/main.cpp.obj	d1d133c4fba61fd8
-1	266	6680303286083489	CMakeFiles/safeArray.dir/CSCI381_Project_1/safeArray.cpp.obj	664547bb2da3cac3
+272	382	6681461402457507	safeArrayTemplate.exe	75b94e058cee9e
 254	353	6672935086772861	C___D_S.exe	4e9fe32e83f5bf21
 240	343	6657279547597534	pointer.exe	e7154630f8212934
 1	240	6657279546596625	CMakeFiles/pointer.dir/pointer/Pointer.cpp.obj	d935918fc0788f20
 1	249	6659835428609278	CMakeFiles/stock.dir/personalStockFile/main.cpp.obj	534f3a22154a82fd
 250	344	6659835429520105	stock.exe	c219834f2b67a9f9
 266	379	6680303287184491	safeArray.exe	48095243501e49eb
-1	271	6681461401376524	CMakeFiles/safeArrayTemplate.dir/CSCI381_Project_1/safeArrayTemplate.cpp.obj	95f7a1114a14fae8
-272	382	6681461402457507	safeArrayTemplate.exe	75b94e058cee9e
 1	261	6680464487937015	CMakeFiles/matrix.dir/Matrix/BasicMatrix.cpp.obj	d41e887383550d7b
 262	396	6680464489238196	matrix.exe	364223fc4d6458d4
+0	271	6681579873143288	CMakeFiles/safeArrayTemplate.dir/CSCI381_Class/CSCI381_Project_1/safeArrayTemplate.cpp.obj	ed39eab564f9bf8c
+271	418	6681579874344377	safeArrayTemplate.exe	15e23e43e5b794ed
+0	247	6681579957119500	CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj	e102403b335391bd
+248	372	6681579958350618	circular.exe	52bc493a8f94c06a
+1	250	6681580032507921	CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj	e102403b335391bd
+250	356	6681580033538858	circular.exe	52bc493a8f94c06a
+1	246	6681580090100192	CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj	e102403b335391bd
+246	353	6681580091151144	circular.exe	52bc493a8f94c06a
