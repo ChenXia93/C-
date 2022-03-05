@@ -1,0 +1,64 @@
+C:\Users\chen\OneDrive\C++_D_S\cmake-build-debug\safeArrayTemplate.exe
+printing a the first time
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+printing using []
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+printing a the second time
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+printing b
+3
+12
+5
+
+index 10 out of range
+=============================
+Matrix..............
+Enter matrix elements:3
+5
+6
+1
+The matrix is:
+3 5
+6 1
+Enter matrix elements:2
+3
+5
+4
+The matrix is:
+2 3
+5 4
+multiplication Matrix
+The matrix is:
+6 25
+18 4
+
+Process finished with exit code 0
