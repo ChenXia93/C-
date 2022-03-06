@@ -117,7 +117,6 @@ int isLoop(struct Node *f){
     }
 }
 
-
 int main(){
     struct Node *t1,*t2;
     int a[] = {3,5,7,10,15};

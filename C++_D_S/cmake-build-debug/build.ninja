@@ -88,6 +88,18 @@ build CMakeFiles/C___D_S.dir/main.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\C___D_S.dir
   OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir
 
+build CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/Array/array_1.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\GGPractice\Array\array_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\GGPractice\Array
+
+build CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/Array/find_tripletsWithzeroSUM.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\GGPractice\Array\find_tripletsWithzeroSUM.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\GGPractice\Array
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C___D_S
@@ -96,7 +108,7 @@ build CMakeFiles/C___D_S.dir/main.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users
 #############################################
 # Link the executable C___D_S.exe
 
-build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj
+build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C___D_S.dir
@@ -272,37 +284,37 @@ build matrix.exe: CXX_EXECUTABLE_LINKER__matrix_Debug CMakeFiles/matrix.dir/Matr
   TARGET_PDB = matrix.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target circular
+# Object build statements for EXECUTABLE target double
 
 
 #############################################
-# Order-only phony target for circular
+# Order-only phony target for double
 
-build cmake_object_order_depends_target_circular: phony || CMakeFiles/circular.dir
+build cmake_object_order_depends_target_double: phony || CMakeFiles/double.dir
 
-build CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj: CXX_COMPILER__circular_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_11_LinkedList/mainCircularLinkedList.cpp || cmake_object_order_depends_target_circular
-  DEP_FILE = CMakeFiles\circular.dir\DS_11_LinkedList\mainCircularLinkedList.cpp.obj.d
+build CMakeFiles/double.dir/DS_11_LinkedList/doubleLinkedList/doubleLinkedListMain.cpp.obj: CXX_COMPILER__double_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_11_LinkedList/doubleLinkedList/doubleLinkedListMain.cpp || cmake_object_order_depends_target_double
+  DEP_FILE = CMakeFiles\double.dir\DS_11_LinkedList\doubleLinkedList\doubleLinkedListMain.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\circular.dir
-  OBJECT_FILE_DIR = CMakeFiles\circular.dir\DS_11_LinkedList
+  OBJECT_DIR = CMakeFiles\double.dir
+  OBJECT_FILE_DIR = CMakeFiles\double.dir\DS_11_LinkedList\doubleLinkedList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target circular
+# Link build statements for EXECUTABLE target double
 
 
 #############################################
-# Link the executable circular.exe
+# Link the executable double.exe
 
-build circular.exe: CXX_EXECUTABLE_LINKER__circular_Debug CMakeFiles/circular.dir/DS_11_LinkedList/mainCircularLinkedList.cpp.obj
+build double.exe: CXX_EXECUTABLE_LINKER__double_Debug CMakeFiles/double.dir/DS_11_LinkedList/doubleLinkedList/doubleLinkedListMain.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\circular.dir
+  OBJECT_DIR = CMakeFiles\double.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = circular.exe
-  TARGET_IMPLIB = libcircular.dll.a
-  TARGET_PDB = circular.exe.dbg
+  TARGET_FILE = double.exe
+  TARGET_IMPLIB = libdouble.dll.a
+  TARGET_PDB = double.exe.dbg
 
 
 #############################################
@@ -314,6 +326,111 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linkedlist
+
+
+#############################################
+# Order-only phony target for linkedlist
+
+build cmake_object_order_depends_target_linkedlist: phony || CMakeFiles/linkedlist.dir
+
+build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj: CXX_COMPILER__linkedlist_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/linkedListCode.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\GGPractice\LinkedList\linkedListCode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkedlist
+
+
+#############################################
+# Link the executable linkedlist.exe
+
+build linkedlist.exe: CXX_EXECUTABLE_LINKER__linkedlist_Debug CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkedlist.exe
+  TARGET_IMPLIB = liblinkedlist.dll.a
+  TARGET_PDB = linkedlist.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/GGPractice/Array/array_1.cpp.obj: CXX_COMPILER__main_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/Array/array_1.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\GGPractice\Array\array_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\GGPractice\Array
+
+build CMakeFiles/main.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj: CXX_COMPILER__main_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/Array/find_tripletsWithzeroSUM.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\GGPractice\Array\find_tripletsWithzeroSUM.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\GGPractice\Array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable main.exe
+
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/main.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main.exe
+  TARGET_IMPLIB = libmain.dll.a
+  TARGET_PDB = main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mainCode
+
+
+#############################################
+# Order-only phony target for mainCode
+
+build cmake_object_order_depends_target_mainCode: phony || CMakeFiles/mainCode.dir
+
+build CMakeFiles/mainCode.dir/GGPractice/Array/codingPage.cpp.obj: CXX_COMPILER__mainCode_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/Array/codingPage.cpp || cmake_object_order_depends_target_mainCode
+  DEP_FILE = CMakeFiles\mainCode.dir\GGPractice\Array\codingPage.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\mainCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\mainCode.dir\GGPractice\Array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mainCode
+
+
+#############################################
+# Link the executable mainCode.exe
+
+build mainCode.exe: CXX_EXECUTABLE_LINKER__mainCode_Debug CMakeFiles/mainCode.dir/GGPractice/Array/codingPage.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mainCode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mainCode.exe
+  TARGET_IMPLIB = libmainCode.dll.a
+  TARGET_PDB = mainCode.exe.dbg
 
 
 #############################################
@@ -332,9 +449,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build C___D_S: phony C___D_S.exe
 
-build circular: phony circular.exe
-
 build con: phony con.exe
+
+build double: phony double.exe
+
+build linkedlist: phony linkedlist.exe
+
+build main: phony main.exe
+
+build mainCode: phony mainCode.exe
 
 build matrix: phony matrix.exe
 
@@ -354,7 +477,7 @@ build stock: phony stock.exe
 #############################################
 # Folder: C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug
 
-build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe circular.exe
+build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe
 
 # =============================================================================
 # Built-in targets
