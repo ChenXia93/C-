@@ -14,3 +14,5 @@ C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/stack.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/stackLinkedList.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/stackP.dir
+C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/linearLinkedList.dir
+C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/linkCode.dir

@@ -360,6 +360,30 @@ build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj: CX
   OBJECT_DIR = CMakeFiles\linkedlist.dir
   OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
 
+build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/nthNodeFromEndOfLinkedList.cpp.obj: CXX_COMPILER__linkedlist_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/nthNodeFromEndOfLinkedList.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\GGPractice\LinkedList\nthNodeFromEndOfLinkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
+
+build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/FindingMiddleElement.cpp.obj: CXX_COMPILER__linkedlist_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/FindingMiddleElement.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\GGPractice\LinkedList\FindingMiddleElement.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
+
+build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/1_mainCode.cpp.obj: CXX_COMPILER__linkedlist_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/1_mainCode.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\GGPractice\LinkedList\1_mainCode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
+
+build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/reverseALInkedList.cpp.obj: CXX_COMPILER__linkedlist_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/reverseALInkedList.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\GGPractice\LinkedList\reverseALInkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\GGPractice\LinkedList
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkedlist
@@ -368,7 +392,7 @@ build CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj: CX
 #############################################
 # Link the executable linkedlist.exe
 
-build linkedlist.exe: CXX_EXECUTABLE_LINKER__linkedlist_Debug CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj
+build linkedlist.exe: CXX_EXECUTABLE_LINKER__linkedlist_Debug CMakeFiles/linkedlist.dir/GGPractice/LinkedList/linkedListCode.cpp.obj CMakeFiles/linkedlist.dir/GGPractice/LinkedList/nthNodeFromEndOfLinkedList.cpp.obj CMakeFiles/linkedlist.dir/GGPractice/LinkedList/FindingMiddleElement.cpp.obj CMakeFiles/linkedlist.dir/GGPractice/LinkedList/1_mainCode.cpp.obj CMakeFiles/linkedlist.dir/GGPractice/LinkedList/reverseALInkedList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkedlist.dir
@@ -562,6 +586,72 @@ build stackP.exe: CXX_EXECUTABLE_LINKER__stackP_Debug CMakeFiles/stackP.dir/DS_1
   TARGET_PDB = stackP.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target linearLinkedList
+
+
+#############################################
+# Order-only phony target for linearLinkedList
+
+build cmake_object_order_depends_target_linearLinkedList: phony || CMakeFiles/linearLinkedList.dir
+
+build CMakeFiles/linearLinkedList.dir/DS_11_LinkedList/LinkedList/introLinkedList.cpp.obj: CXX_COMPILER__linearLinkedList_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_11_LinkedList/LinkedList/introLinkedList.cpp || cmake_object_order_depends_target_linearLinkedList
+  DEP_FILE = CMakeFiles\linearLinkedList.dir\DS_11_LinkedList\LinkedList\introLinkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linearLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linearLinkedList.dir\DS_11_LinkedList\LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linearLinkedList
+
+
+#############################################
+# Link the executable linearLinkedList.exe
+
+build linearLinkedList.exe: CXX_EXECUTABLE_LINKER__linearLinkedList_Debug CMakeFiles/linearLinkedList.dir/DS_11_LinkedList/LinkedList/introLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linearLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linearLinkedList.exe
+  TARGET_IMPLIB = liblinearLinkedList.dll.a
+  TARGET_PDB = linearLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linkCode
+
+
+#############################################
+# Order-only phony target for linkCode
+
+build cmake_object_order_depends_target_linkCode: phony || CMakeFiles/linkCode.dir
+
+build CMakeFiles/linkCode.dir/GGPractice/LinkedList/1_mainCode.cpp.obj: CXX_COMPILER__linkCode_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/GGPractice/LinkedList/1_mainCode.cpp || cmake_object_order_depends_target_linkCode
+  DEP_FILE = CMakeFiles\linkCode.dir\GGPractice\LinkedList\1_mainCode.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\linkCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkCode.dir\GGPractice\LinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linkCode
+
+
+#############################################
+# Link the executable linkCode.exe
+
+build linkCode.exe: CXX_EXECUTABLE_LINKER__linkCode_Debug CMakeFiles/linkCode.dir/GGPractice/LinkedList/1_mainCode.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linkCode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linkCode.exe
+  TARGET_IMPLIB = liblinkCode.dll.a
+  TARGET_PDB = linkCode.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build C___D_S: phony C___D_S.exe
@@ -569,6 +659,10 @@ build C___D_S: phony C___D_S.exe
 build con: phony con.exe
 
 build double: phony double.exe
+
+build linearLinkedList: phony linearLinkedList.exe
+
+build linkCode: phony linkCode.exe
 
 build linkedlist: phony linkedlist.exe
 
@@ -600,7 +694,7 @@ build stock: phony stock.exe
 #############################################
 # Folder: C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug
 
-build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe stack.exe stackLinkedList.exe stackP.exe
+build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe stack.exe stackLinkedList.exe stackP.exe linearLinkedList.exe linkCode.exe
 
 # =============================================================================
 # Built-in targets
