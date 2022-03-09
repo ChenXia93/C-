@@ -16,7 +16,7 @@ public:
 };
 void Stack::push(int x){
     if(top == size -1){
-        cout<<"Stack is full"<<endl;
+        cout<<"DS_12_Stack is full"<<endl;
     }else{
         top++;
         stk[top] = x ;
@@ -25,7 +25,7 @@ void Stack::push(int x){
 int Stack :: pop(){
     int x = 0;
     if(top == -1){
-        cout<<"Stack is empty"<<endl;
+        cout<<"DS_12_Stack is empty"<<endl;
     }else{
         x = stk[top];
         top--;

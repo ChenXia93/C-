@@ -100,6 +100,24 @@ build CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj: 
   OBJECT_DIR = CMakeFiles\C___D_S.dir
   OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\GGPractice\Array
 
+build CMakeFiles/C___D_S.dir/DS_12_Stack/stackMain.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackMain.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\DS_12_Stack\stackMain.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
+
+build CMakeFiles/C___D_S.dir/DS_12_Stack/stackLinkedList.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackLinkedList.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\DS_12_Stack\stackLinkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
+
+build CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackParenthesis.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\DS_12_Stack\stackParenthesis.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C___D_S
@@ -108,7 +126,7 @@ build CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj: 
 #############################################
 # Link the executable C___D_S.exe
 
-build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj
+build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackMain.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackLinkedList.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C___D_S.dir
@@ -432,6 +450,72 @@ build mainCode.exe: CXX_EXECUTABLE_LINKER__mainCode_Debug CMakeFiles/mainCode.di
   TARGET_IMPLIB = libmainCode.dll.a
   TARGET_PDB = mainCode.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stack
+
+
+#############################################
+# Order-only phony target for stack
+
+build cmake_object_order_depends_target_stack: phony || CMakeFiles/stack.dir
+
+build CMakeFiles/stack.dir/DS_12_Stack/stackMain.cpp.obj: CXX_COMPILER__stack_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackMain.cpp || cmake_object_order_depends_target_stack
+  DEP_FILE = CMakeFiles\stack.dir\DS_12_Stack\stackMain.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack
+
+
+#############################################
+# Link the executable stack.exe
+
+build stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/DS_12_Stack/stackMain.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stack.exe
+  TARGET_IMPLIB = libstack.dll.a
+  TARGET_PDB = stack.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stackLinkedList
+
+
+#############################################
+# Order-only phony target for stackLinkedList
+
+build cmake_object_order_depends_target_stackLinkedList: phony || CMakeFiles/stackLinkedList.dir
+
+build CMakeFiles/stackLinkedList.dir/DS_12_Stack/stackLinkedList.cpp.obj: CXX_COMPILER__stackLinkedList_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackLinkedList.cpp || cmake_object_order_depends_target_stackLinkedList
+  DEP_FILE = CMakeFiles\stackLinkedList.dir\DS_12_Stack\stackLinkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stackLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\stackLinkedList.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stackLinkedList
+
+
+#############################################
+# Link the executable stackLinkedList.exe
+
+build stackLinkedList.exe: CXX_EXECUTABLE_LINKER__stackLinkedList_Debug CMakeFiles/stackLinkedList.dir/DS_12_Stack/stackLinkedList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stackLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stackLinkedList.exe
+  TARGET_IMPLIB = libstackLinkedList.dll.a
+  TARGET_PDB = stackLinkedList.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -443,6 +527,39 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stackP
+
+
+#############################################
+# Order-only phony target for stackP
+
+build cmake_object_order_depends_target_stackP: phony || CMakeFiles/stackP.dir
+
+build CMakeFiles/stackP.dir/DS_12_Stack/stackParenthesis.cpp.obj: CXX_COMPILER__stackP_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackParenthesis.cpp || cmake_object_order_depends_target_stackP
+  DEP_FILE = CMakeFiles\stackP.dir\DS_12_Stack\stackParenthesis.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stackP.dir
+  OBJECT_FILE_DIR = CMakeFiles\stackP.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stackP
+
+
+#############################################
+# Link the executable stackP.exe
+
+build stackP.exe: CXX_EXECUTABLE_LINKER__stackP_Debug CMakeFiles/stackP.dir/DS_12_Stack/stackParenthesis.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stackP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stackP.exe
+  TARGET_IMPLIB = libstackP.dll.a
+  TARGET_PDB = stackP.exe.dbg
 
 # =============================================================================
 # Target aliases.
@@ -467,6 +584,12 @@ build safeArray: phony safeArray.exe
 
 build safeArrayTemplate: phony safeArrayTemplate.exe
 
+build stack: phony stack.exe
+
+build stackLinkedList: phony stackLinkedList.exe
+
+build stackP: phony stackP.exe
+
 build stock: phony stock.exe
 
 # =============================================================================
@@ -477,7 +600,7 @@ build stock: phony stock.exe
 #############################################
 # Folder: C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug
 
-build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe
+build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe stack.exe stackLinkedList.exe stackP.exe
 
 # =============================================================================
 # Built-in targets

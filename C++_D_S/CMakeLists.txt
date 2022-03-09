@@ -3,7 +3,7 @@ project(C___D_S)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C___D_S main.cpp GGPractice/Array/array_1.cpp GGPractice/Array/find_tripletsWithzeroSUM.cpp)
+add_executable(C___D_S main.cpp GGPractice/Array/array_1.cpp GGPractice/Array/find_tripletsWithzeroSUM.cpp DS_12_Stack/stackMain.cpp DS_12_Stack/stackLinkedList.cpp DS_12_Stack/stackParenthesis.cpp)
 add_executable(pointer pointer/Pointer.cpp)
 add_executable(con Class/conversionConstructor.cpp)
 add_executable(stock personalStockFile/main.cpp)
@@ -14,3 +14,6 @@ add_executable(double DS_11_LinkedList/doubleLinkedList/doubleLinkedListMain.cpp
 add_executable(main GGPractice/Array/array_1.cpp GGPractice/Array/find_tripletsWithzeroSUM.cpp)
 add_executable(mainCode GGPractice/Array/codingPage.cpp)
 add_executable(linkedlist GGPractice/LinkedList/linkedListCode.cpp)
+add_executable(stack DS_12_Stack/stackMain.cpp)
+add_executable(stackLinkedList DS_12_Stack/stackLinkedList.cpp)
+add_executable(stackP DS_12_Stack/stackParenthesis.cpp)
