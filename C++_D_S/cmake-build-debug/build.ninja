@@ -118,6 +118,18 @@ build CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\C___D_S.dir
   OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
 
+build CMakeFiles/C___D_S.dir/DS_12_Stack/stackInfix_Postfix.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackInfix_Postfix.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\DS_12_Stack\stackInfix_Postfix.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
+
+build CMakeFiles/C___D_S.dir/DS_12_Stack/stackEvalPostFix.cpp.obj: CXX_COMPILER__C___D_S_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackEvalPostFix.cpp || cmake_object_order_depends_target_C___D_S
+  DEP_FILE = CMakeFiles\C___D_S.dir\DS_12_Stack\stackEvalPostFix.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\C___D_S.dir
+  OBJECT_FILE_DIR = CMakeFiles\C___D_S.dir\DS_12_Stack
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C___D_S
@@ -126,7 +138,7 @@ build CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable C___D_S.exe
 
-build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackMain.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackLinkedList.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj
+build C___D_S.exe: CXX_EXECUTABLE_LINKER__C___D_S_Debug CMakeFiles/C___D_S.dir/main.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/array_1.cpp.obj CMakeFiles/C___D_S.dir/GGPractice/Array/find_tripletsWithzeroSUM.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackMain.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackLinkedList.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackParenthesis.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackInfix_Postfix.cpp.obj CMakeFiles/C___D_S.dir/DS_12_Stack/stackEvalPostFix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C___D_S.dir
@@ -300,6 +312,39 @@ build matrix.exe: CXX_EXECUTABLE_LINKER__matrix_Debug CMakeFiles/matrix.dir/Matr
   TARGET_FILE = matrix.exe
   TARGET_IMPLIB = libmatrix.dll.a
   TARGET_PDB = matrix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target infix_2
+
+
+#############################################
+# Order-only phony target for infix_2
+
+build cmake_object_order_depends_target_infix_2: phony || CMakeFiles/infix_2.dir
+
+build CMakeFiles/infix_2.dir/DS_12_Stack/stackInfixSample_2.cpp.obj: CXX_COMPILER__infix_2_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackInfixSample_2.cpp || cmake_object_order_depends_target_infix_2
+  DEP_FILE = CMakeFiles\infix_2.dir\DS_12_Stack\stackInfixSample_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\infix_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\infix_2.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target infix_2
+
+
+#############################################
+# Link the executable infix_2.exe
+
+build infix_2.exe: CXX_EXECUTABLE_LINKER__infix_2_Debug CMakeFiles/infix_2.dir/DS_12_Stack/stackInfixSample_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\infix_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = infix_2.exe
+  TARGET_IMPLIB = libinfix_2.dll.a
+  TARGET_PDB = infix_2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target double
@@ -652,6 +697,72 @@ build linkCode.exe: CXX_EXECUTABLE_LINKER__linkCode_Debug CMakeFiles/linkCode.di
   TARGET_PDB = linkCode.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target infix_postfix
+
+
+#############################################
+# Order-only phony target for infix_postfix
+
+build cmake_object_order_depends_target_infix_postfix: phony || CMakeFiles/infix_postfix.dir
+
+build CMakeFiles/infix_postfix.dir/DS_12_Stack/stackInfix_Postfix.cpp.obj: CXX_COMPILER__infix_postfix_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackInfix_Postfix.cpp || cmake_object_order_depends_target_infix_postfix
+  DEP_FILE = CMakeFiles\infix_postfix.dir\DS_12_Stack\stackInfix_Postfix.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\infix_postfix.dir
+  OBJECT_FILE_DIR = CMakeFiles\infix_postfix.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target infix_postfix
+
+
+#############################################
+# Link the executable infix_postfix.exe
+
+build infix_postfix.exe: CXX_EXECUTABLE_LINKER__infix_postfix_Debug CMakeFiles/infix_postfix.dir/DS_12_Stack/stackInfix_Postfix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\infix_postfix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = infix_postfix.exe
+  TARGET_IMPLIB = libinfix_postfix.dll.a
+  TARGET_PDB = infix_postfix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stackeval
+
+
+#############################################
+# Order-only phony target for stackeval
+
+build cmake_object_order_depends_target_stackeval: phony || CMakeFiles/stackeval.dir
+
+build CMakeFiles/stackeval.dir/DS_12_Stack/stackEvalPostFix.cpp.obj: CXX_COMPILER__stackeval_Debug C$:/Users/chen/Desktop/Github_C++/C++_D_S/DS_12_Stack/stackEvalPostFix.cpp || cmake_object_order_depends_target_stackeval
+  DEP_FILE = CMakeFiles\stackeval.dir\DS_12_Stack\stackEvalPostFix.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\stackeval.dir
+  OBJECT_FILE_DIR = CMakeFiles\stackeval.dir\DS_12_Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stackeval
+
+
+#############################################
+# Link the executable stackeval.exe
+
+build stackeval.exe: CXX_EXECUTABLE_LINKER__stackeval_Debug CMakeFiles/stackeval.dir/DS_12_Stack/stackEvalPostFix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stackeval.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stackeval.exe
+  TARGET_IMPLIB = libstackeval.dll.a
+  TARGET_PDB = stackeval.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build C___D_S: phony C___D_S.exe
@@ -659,6 +770,10 @@ build C___D_S: phony C___D_S.exe
 build con: phony con.exe
 
 build double: phony double.exe
+
+build infix_2: phony infix_2.exe
+
+build infix_postfix: phony infix_postfix.exe
 
 build linearLinkedList: phony linearLinkedList.exe
 
@@ -684,6 +799,8 @@ build stackLinkedList: phony stackLinkedList.exe
 
 build stackP: phony stackP.exe
 
+build stackeval: phony stackeval.exe
+
 build stock: phony stock.exe
 
 # =============================================================================
@@ -694,7 +811,7 @@ build stock: phony stock.exe
 #############################################
 # Folder: C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug
 
-build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe double.exe linkedlist.exe main.exe mainCode.exe stack.exe stackLinkedList.exe stackP.exe linearLinkedList.exe linkCode.exe
+build all: phony safeArray.exe C___D_S.exe stock.exe pointer.exe safeArrayTemplate.exe con.exe matrix.exe infix_2.exe double.exe linkedlist.exe main.exe mainCode.exe stack.exe stackLinkedList.exe stackP.exe linearLinkedList.exe linkCode.exe infix_postfix.exe stackeval.exe
 
 # =============================================================================
 # Built-in targets

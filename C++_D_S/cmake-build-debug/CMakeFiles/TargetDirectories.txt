@@ -5,6 +5,7 @@ C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/pointer.di
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/safeArrayTemplate.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/con.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/matrix.dir
+C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/infix_2.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/double.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/linkedlist.dir
@@ -16,3 +17,5 @@ C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/rebuild_ca
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/stackP.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/linearLinkedList.dir
 C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/linkCode.dir
+C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/infix_postfix.dir
+C:/Users/chen/Desktop/Github_C++/C++_D_S/cmake-build-debug/CMakeFiles/stackeval.dir
