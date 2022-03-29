@@ -24,15 +24,15 @@ void display(struct Node *head);
 
 //struct Node* reverseList(struct Node *head)
 //{
-//    struct Node*p=NULL,*q=NULL,*r=NULL;
+//    struct Node*p=NULL,*Q=NULL,*r=NULL;
 //    p = head;
 //    while(p!=nullptr){
-//        r = q;
-//        q = p;
+//        r = Q;
+//        Q = p;
 //        p = p->next;
-//        q->next =r;
+//        Q->next =r;
 //    }
-//    head = q;
+//    head = Q;
 //}
 struct Node*reverseList(struct Node *head)
 {
