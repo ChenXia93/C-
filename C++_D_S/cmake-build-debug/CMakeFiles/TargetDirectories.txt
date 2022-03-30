@@ -1,10 +1,12 @@
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/mainQ.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/matrix.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/double.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/infix_2.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/infix_postfix.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/linkCode.dir
+/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/QueueLinkedList.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/linearLinkedList.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/stackP.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/con.dir
@@ -12,6 +14,7 @@
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/stackLinkedList.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/stack.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/safeArray.dir
+/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/2stack.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/mainCode.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/C___D_S.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/stackeval.dir
@@ -20,5 +23,6 @@
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/main.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/safeArrayTemplate.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/pointer.dir
-/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/DEQueue.dir
 /Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/mainQBasic.dir
+/Users/chenxianxia/Desktop/C++/C++_D_S/cmake-build-debug/CMakeFiles/circularQQ.dir
